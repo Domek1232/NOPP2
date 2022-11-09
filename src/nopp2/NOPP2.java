@@ -5,15 +5,24 @@
  */
 package nopp2;
 
+import java.util.Random;
+import java.util.Scanner;
+
 /**
  *
  * @author user3
  */
 public class NOPP2 {
-
-    //Viktor részev
-    public static void main(String[] args) {
-        
+public static void csillag() {
+        System.out.println("*********************");
+        System.out.println("*   NOPPVDProject   *");
+        System.out.println("*********************");
     }
-    
+ 
+    public static void main(String[] args) {
+        Scanner bill = new Scanner(System.in);
+    }
 }
+
+    
+
