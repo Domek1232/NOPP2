@@ -44,10 +44,13 @@ public class NOPP2 {
  
     public static void main(String[] args) {
         Scanner bill = new Scanner(System.in);
+        //6.-ik FELADAT
         System.out.println("Adjon meg egy évszámot: ");
         int szokev = bill.nextInt();
+        //7.-ik FELADAT
         System.out.println("Szökőév: " + szokoevE(szokev));
         System.out.println("Szökőév fordítva: "+ reverse(szokev));
+        csillag();
         
         
         
