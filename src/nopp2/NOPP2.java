@@ -11,11 +11,9 @@ package nopp2;
  */
 public class NOPP2 {
 
-    /**
-     * @param args the command line arguments
-     */
+    //Viktor része
     public static void main(String[] args) {
-        // TODO code application logic here
+        
     }
     
 }
