@@ -24,13 +24,23 @@ public class NOPP2 {
         if (((x % 4 == 0) && (x % 100 != 0)) || (x % 400 == 0)) {
 
             return true;
-
         }
-
         return false;
-
     }
-    
+    public static int reverse(int n){
+       
+      int fordított = 0; 
+      int maradek;  
+       
+      while(n>0){
+          
+        maradek = n%10;
+        fordított= (fordított*10) + maradek;
+        n = n/10;
+      }
+       
+      return fordított;
+    }
  
     public static void main(String[] args) {
 
@@ -47,21 +57,7 @@ public class NOPP2 {
     //else {
     //  System.out.println(year + " Ez nem egy szökőév..");
     //}
-    int num = 1234, forditott = 0;
     
-    System.out.println("Eredeti szám: " + num);
-
-    // P készít egy metódust, 
-    //ami egy számként kapott paramétert kap, és visszaadja szövegként, fordított sorrendben.
-    while(num != 0) {
-    
-      int digit = num % 10;
-      forditott = forditott * 10 + digit;
-
-      num /= 10;
-    }
-
-    System.out.println("Fordított: " + forditott);
   }
 }
   
