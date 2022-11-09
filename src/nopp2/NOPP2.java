@@ -43,7 +43,14 @@ public class NOPP2 {
     }
  
     public static void main(String[] args) {
-
+        Scanner bill = new Scanner(System.in);
+        System.out.println("Adjon meg egy évszámot: ");
+        int szokev = bill.nextInt();
+        System.out.println("Szökőév: " + szokoevE(szokev));
+        System.out.println("Szökőév fordítva: "+ reverse(szokev));
+        
+        
+        
     // O készít egy metódust, ami eldönti hogy szökőév e
     //if (year % 400 == 0) {
     //  System.out.println(year + " Ez egy szökőév.");
