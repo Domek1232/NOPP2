@@ -13,16 +13,31 @@ import java.util.Scanner;
  * @author user3
  */
 public class NOPP2 {
-public static void csillag() {
+
+    public static void csillag() {
         System.out.println("*********************");
         System.out.println("*   NOPPVDProject   *");
         System.out.println("*********************");
     }
+    
  
     public static void main(String[] args) {
-        Scanner bill = new Scanner(System.in);
-    }
-}
+        int year = 1998;
 
+    // Implementing our algorithm.
+    if (year % 400 == 0) {
+      System.out.println(year + " Ez egy szökőév.");
+    } 
+    else if (year % 100 == 0) {
+      System.out.println(year + " Ez nem egy szökőév..");
+    } 
+    else if (year % 4 == 0) {
+      System.out.println(year + " Ez egy szökőév..");
+    } 
+    else {
+      System.out.println(year + " Ez nem egy szökőév..");
+    }
+  }
+}
     
 
