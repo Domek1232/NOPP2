@@ -11,7 +11,7 @@ package nopp2;
  */
 public class NOPP2 {
 
-    //Viktor része
+    //Viktor részev
     public static void main(String[] args) {
         
     }
