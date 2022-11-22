@@ -53,7 +53,6 @@ public class NOPP2 {
         csillag();
         
         
-        
     // O készít egy metódust, ami eldönti hogy szökőév e
     //if (year % 400 == 0) {
     //  System.out.println(year + " Ez egy szökőév.");
